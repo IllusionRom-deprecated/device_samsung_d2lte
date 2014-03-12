@@ -146,7 +146,7 @@ void vendor_load_properties()
         property_set("ro.product.device", "d2vzw");
         property_set("ro.telephony.default_cdma_sub", "0");
         property_set("ro.cdma.home.operator.alpha", "Verizon");
-        property_set("ro.cdma.home.operator.numeric", "310004");
+        property_set("ro.cdma.home.operator.numeric", "311480");
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "10");
     }
