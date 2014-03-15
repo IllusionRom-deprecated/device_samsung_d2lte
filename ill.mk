@@ -4,6 +4,6 @@ $(call inherit-product, device/samsung/d2lte/full_d2lte.mk)
 #$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/illusion/config/common.mk)
+$(call inherit-product, vendor/illusion/config/common_full_phone.mk)
 
 PRODUCT_NAME := ill_d2lte
