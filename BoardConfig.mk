@@ -26,6 +26,7 @@
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/d2lte/include
 
 # Kernel
+TARGET_KERNEL_CUSTOM_LINARO_TOOLCHAIN := boosted-4.7/bin/arm-eabi-
 TARGET_KERNEL_SOURCE        := kernel/samsung/d2
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom user_debug=31 zcache
 BOARD_KERNEL_BASE           := 0x80200000
